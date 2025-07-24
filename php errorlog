@@ -1,0 +1,19 @@
+[24-Jul-2025 13:48:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'condition, image) 
+                            VALUES ('2', '1', 'Happy Birthday' at line 1 in /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/post_ad.php:29
+Stack trace:
+#0 /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/post_ad.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/post_ad.php on line 29
+[24-Jul-2025 13:55:07 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/chat.php on line 106
+[24-Jul-2025 13:59:00 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/chat.php on line 106
+[24-Jul-2025 13:59:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'receiver_id' cannot be null in /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/chat.php:26
+Stack trace:
+#0 /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/chat.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/chat.php on line 26
+[24-Jul-2025 13:59:25 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/chat.php on line 106
+[24-Jul-2025 13:59:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'receiver_id' cannot be null in /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/chat.php:26
+Stack trace:
+#0 /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/chat.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa17.planetearth.school/public_html/OLX CLONE/chat.php on line 26
